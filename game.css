@@ -44,8 +44,8 @@ body{
     
 }
 #reset_bt{
-    height: 5vmin;
-    width:14vmin;
+    height: auto;
+    width:auto;
     background-color: black;
     color: antiquewhite;
 }
@@ -53,8 +53,8 @@ body{
 #new_game{
     margin-bottom: 20vmin;
     margin-top:20vmin;
-    height: 5vmin;
-    width:14vmin;
+    height: auto;
+    width:auto;
     background-color: black;
     color: antiquewhite;
 }
