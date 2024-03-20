@@ -22,11 +22,13 @@ boxes.forEach((box)=>{
     box.addEventListener("click",() => {
            if(turn1==0){
             box.innerText="X";
+            box.style.color="black";
             turn1++;
             box.disable
            }
            else{
             box.innerText="O";
+            box.style.color="purple";
             turn1=0;
            }
 
